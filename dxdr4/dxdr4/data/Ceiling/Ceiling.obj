@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 09.06.2020 00:22:51
+
+mtllib Ceiling.mtl
+
+#
+# object Ceiling
+#
+
+v  -1958.4808 -0.0003 1958.7042
+v  -1958.4808 -0.0003 -1958.7046
+v  1958.4810 -0.0003 -1958.7046
+v  1958.4810 -0.0003 1958.7042
+# 4 vertices
+
+vn 0.0000 -1.0000 -0.0000
+# 1 vertex normals
+
+vt -3.7878 -3.7878 0.5000
+vt -3.7878 4.7878 0.5000
+vt 4.7878 4.7878 0.5000
+vt 4.7878 -3.7878 0.5000
+# 4 texture coords
+
+o Ceiling
+g Ceiling
+usemtl Material__91
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 4/4/1 1/1/1 
+# 2 faces
+
